@@ -1,10 +1,54 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="./../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./../node_modules/bootstrap-icons/font/bootstrap-icons.min.css">
+    <link href="./app.css" rel="stylesheet">
     <title></title>
-  </head>
-  <body>
-    Well hey there!!!
-  </body>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row  d-flex justify-content-center">
+            <div class="col-12 card p-0 itm-list">
+
+                <div class="bg-success d-flex justify-content-center w-100 text-light item-topic"
+                    style="width: 100%;">
+                    <h1>TO DO LIST</h1>
+                </div>
+                <div class="list-data">
+                    <ol>
+                        <li>hii</li>
+                        <li>hii</li>
+                        <li>hii</li>
+                    </ol>
+                </div>
+                <hr class="m-0">
+                <div class="container" style="width: 100%;">
+                    <div class="row  d-flex justify-content-center  align-items-center" style="width: 100%;">
+                    
+                        <div class="col-9 d-flex justify-content-center  align-items-center">
+                            <input class="form-control form-control-sm" type="text" placeholder="Enter Task"
+                                aria-label=".form-control-sm example">
+                        </div>
+                        <div class="col-3 d-flex justify-content-center  align-items-center">
+
+                            <button onclick="addToList()" class="btn text-success d-flex justify-content-center  align-items-center">
+                                <h3 class=" d-flex justify-content-center  align-items-center"><i class="bi bi-plus-circle mt-2"></i></h3>
+                            </button>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+
 </html>

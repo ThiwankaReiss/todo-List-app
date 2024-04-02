@@ -1,0 +1,21 @@
+
+.itm-list {
+    width: 300px;
+    margin: 10px;
+    border-radius: 25px ;
+   
+}
+.list-data{
+    overflow: auto;
+    height: 350px;
+}
+.item-topic{
+    border-radius: 25px 25px  0px 0px ;
+}
+@media only screen and (min-width: 600px) {
+    .itm-list {
+        margin: 10px;
+        width: 500px;
+        border-radius: 25px ;
+    }
+  }
